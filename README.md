@@ -6,9 +6,9 @@ pipeline_preprocess.py: is a script for serial execution of all basic preprocess
 preprocessSingle.py: is a parameterized script that executes the basic steps only for a single test image and plots the results for verification.
 
 ## Files description
-FullDataPreparation.py : Class for reading and preparing dicom and mhd files in order to save them in the required npz form.
-ImgProcess.py :  Class for affine aligning of all images in the Baseline folder.
-img_utils.py : Useful functions and their wrappers for image preprocessing like resampling, denoising, compressing
-normImages.py : Normalization functions and required wrappers
-plots_lib.py : Plotting functions for image preprocess analysis and verification
-DataSplit.py : Class which contains all help functions for splitting dataset into train/validation/test according to the parameters (size, filename list, stratified by Kellgren-Lawrence)
+* FullDataPreparation.py : Class for reading and preparing dicom and mhd files in order to save them in the required npz form.
+* ImgProcess.py :  Class for affine aligning of all images in the Baseline folder.
+* img_utils.py : Useful functions and their wrappers for image preprocessing like resampling, denoising, compressing
+* normImages.py : Normalization functions and required wrappers
+* plots_lib.py : Plotting functions for image preprocess analysis and verification
+* DataSplit.py : Class which contains all help functions for splitting dataset into train/validation/test according to the parameters (size, filename list, stratified by Kellgren-Lawrence)
