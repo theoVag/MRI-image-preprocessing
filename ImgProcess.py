@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 from glob import glob
 import SimpleITK as sitk
 
-# Class for affine aligning all images in Baseline folder
+# Class for affine aligning of all images in Baseline folder
 class ImgProcess:
     """Description here"""
     
