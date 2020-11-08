@@ -74,7 +74,7 @@ class FullDataPreparation:
         
         return voxel_ndarray
     
-    # mallon den douleuei
+    #
     def resample_image2_seg(self,numpyImage,new_size,num_slices):
         #resampled_3dimage = np.zeros((new_size[0],new_size[1],num_slices))
         resampled_3dimage = np.zeros((num_slices,new_size[1],new_size[0]))
@@ -86,7 +86,7 @@ class FullDataPreparation:
             resampled_3dimage[i,:,:] = np.flipud(img)
         return resampled_3dimage
     
-    # mallon den douleuei
+    #
     def resample_image2(self,numpyImage,new_size,num_slices):
         #resampled_3dimage = np.zeros((new_size[0],new_size[1],num_slices))
         resampled_3dimage = np.zeros((num_slices,new_size[1],new_size[0]))
@@ -97,7 +97,7 @@ class FullDataPreparation:
     
         return resampled_3dimage
     
-    # mallon den douleuei
+    #
     def resize_sitk(self,volume_image_np,seg_volume_image_np,nsize,isLabel=False):
         #new_size = [112,96,160]
         
